@@ -1,5 +1,7 @@
 plugins {
-	id 'fabric-loom' version "${loom_version}"
+	// Было: id 'fabric-loom' version "${loom_version}"
+	// Стало:
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 	id 'maven-publish'
 }
 
